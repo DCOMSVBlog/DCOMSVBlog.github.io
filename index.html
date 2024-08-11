@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DCOM服务svchost的个人博客网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Segoe ui, Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-image: url("/assets/img/bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        .modal {
+            display: block;
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: #2A2A2A;
+            margin: auto;
+            padding: 0;
+            top: 50%;
+            transform: translate(0,-50%);
+            width: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            color: white;
+        }
+
+        .modal-body {
+            padding: 2px 16px;
+        }
+
+        .modal-footer {
+            padding: 2px 16px;
+            background-color: #1F1F1F;
+            color: white;
+            display: block;
+        }
+
+        a {
+            color: white;
+        }
+
+            a:visited {
+                color: White;
+            }
+    </style>
 </head>
 <body>
-    <h1>该网站正在维护。</h1>
-    <p>哔哩哔哩空间：https://space.bilibili.com/3546643425134802?spm_id_from=333.999.0.0。</p>
+
+    <div class="modal">
+
+        <div class="modal-content">
+            <div class="modal-body">
+                <h1>欢迎来到DCOM服务svchost的个人博客网站！</h1>
+                <p>网站维护中，即将全新登场！</p>
+
+
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://space.bilibili.com/3546643425134802?spm_id_from=333.999.0.0">点击进入我的bilibili主页</a>
+		<a href="https://mi11-winr.github.io/">点击前往我的Windows12官网</a><br>
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
 </html>
